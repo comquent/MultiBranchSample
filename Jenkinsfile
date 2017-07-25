@@ -1,6 +1,6 @@
 node {
     stage('checkout') {
-        git 'https://github.com/comquent/MultiBranchSample.git'
+        checkout scm
     }    
 
     stage('build') {
